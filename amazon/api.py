@@ -24,14 +24,19 @@ import dateutil.parser
 # https://kdp.amazon.com/help?topicId=A1CT8LK6UW2FXJ
 # CN not listed
 DOMAINS = {
+    'US': 'com',
+    'UK': 'co.uk',
     'CA': 'ca',
     'DE': 'de',
-    'ES': 'es',
     'FR': 'fr',
     'IT': 'it',
+    'ES': 'es',
+    'CN': 'cn',
     'JP': 'co.jp',
-    'UK': 'co.uk',
-    'US': 'com',
+    'BR': 'com.br',
+    'MX': 'com.mx',
+    'AU': 'com.au',
+    'IN': 'in',
 }
 
 AMAZON_ASSOCIATES_BASE_URL = 'http://www.amazon.{domain}/dp/'
